@@ -1,0 +1,37 @@
+     1                                  ; Colton Steinbeck
+     2                                  ; Hw 6
+     3                                  ; October 4, 2019
+     4                                  ; Etc...
+     5                                  
+     6                                  SECTION .data
+     7                                  ; define data/variables here.  Think DB, DW, DD, DQ
+     8 00000000 0100                    wArray1 :          DW         1
+     9 00000002 0200                    wArray2 :          DW         2
+    10 00000004 0300                    wArray3 :          DW         3
+    11 00000006 0000                    addUp   :          DW         0
+    12                                  
+    13                                  SECTION .text
+    14                                  global _main
+    15                                  _main:
+    16                                  
+    17                                  ; put your code here.
+    18 00000000 6631C0                  xor ax, ax
+    19 00000003 66A1[00000000]          mov ax,WORD[wArray1+0]
+    20                                  
+    21 00000009 6631DB                  xor bx,bx
+    22 0000000C 668B1D[02000000]        mov bx, WORD[wArray2+0]
+    23                                  
+    24 00000013 6631C9                  xor cx, cx
+    25 00000016 668B0D[04000000]        mov cx, WORD[wArray3+0]
+    26                                  
+    27 0000001D 6631D2                  xor dx, dx
+    28 00000020 6601D8                  add ax, bx
+    29 00000023 6601C8                  add ax, cx
+    30 00000026 66A3[06000000]          mov WORD[addUp], ax
+    31                                  
+    32                                  sumBreak:
+    33                                  ; Normal termination code
+    34 0000002C B801000000              mov eax, 1
+    35 00000031 BB00000000              mov ebx, 0
+    36 00000036 CD80                    int 80h
+    37                                  

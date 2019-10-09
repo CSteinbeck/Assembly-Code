@@ -1,0 +1,11 @@
+csteinbeckassembly322
+colton_r_m_steinbeck
+/home/colton_r_m_steinbeck/Anvil/csc-322/hw6
+total 36
+drwxrwxr-x 2 colton_r_m_steinbeck colton_r_m_steinbeck 4096 Oct  4 19:26 .
+drwxrwxr-x 4 colton_r_m_steinbeck colton_r_m_steinbeck 4096 Oct  2 17:10 ..
+-rwxrwxr-x 1 colton_r_m_steinbeck colton_r_m_steinbeck 9096 Oct  4 19:22 a.out
+-rw-rw-r-- 1 colton_r_m_steinbeck colton_r_m_steinbeck   88 Oct  4 19:26 anvilInfo
+-rw-rw-r-- 1 colton_r_m_steinbeck colton_r_m_steinbeck  533 Oct  4 19:19 hw6.asm
+-rw-rw-r-- 1 colton_r_m_steinbeck colton_r_m_steinbeck 2013 Oct  4 19:20 hw6.lst
+-rw-rw-r-- 1 colton_r_m_steinbeck colton_r_m_steinbeck 1200 Oct  4 19:20 hw6.o
