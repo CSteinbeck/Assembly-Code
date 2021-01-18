@@ -3,6 +3,7 @@
 ; October 4, 2019
 ; Etc...
 
+;REDUX
 SECTION .data
 ; define data/variables here.  Think DB, DW, DD, DQ
 wArray1 :          DW         1
